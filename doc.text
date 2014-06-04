@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='IE=Edge' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"c87e70483d","applicationID":"1468731","transactionName":"ewpdQ0IKDVwERRgHCksGRkRDDA5eEhhECwxP","queueTime":12,"applicationTime":441,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-411.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+<title>Comms Strategy - App Ecosystem | Loomio</title>
+<!--[if lt IE 9]>
+<script src="/assets/ie8-751c5fd935b5b52032ce9a4f611e92ee.js" type="text/javascript"></script>
+<![endif]-->
+<link href="/assets/third_party-039e33016e30c2b815f62ae508ee1417.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/assets/unstructured-a58e42ed335aa6a7c1e93bad9bcaa8b6.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script src="/assets/application-492da91a71b7d9e8847b3af6c2be298c.js" type="text/javascript"></script>
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="Aup60+R1mRCkAQNqObRbjSe6KV0PfC0Ahy1uvER/42k=" name="csrf-token" />
+<meta content="Now that this group is public by default and the [repo](https://github.com/open-app/core) is outside of Enspiral, I'd like to get a sense of the Ecosystem comms strategy.&#x000A;&#x000A;For example, I'm aware that other enspiral-like groups are working on, or already have apps similar to what we have proposed. E.g. Camplight (Bulgaria), CoCoon Pro (Italy), Sensorica (Canada-USA), Swedish group (?). &#x000A;&#x000A;It seems to be beneficial to the ecosystem as a whole if these apps aligned towards the open-app's standards?&#x000A;&#x000A;Is it our strategy to promote open-app amongst these groups?&#x000A;If so, what is our value proposition?&#x000A;" name='description'>
+<meta content='summary' name='twitter:card'>
+<meta content='@LoomioProject' name='twitter:creator'>
+<meta content='Comms Strategy' name='twitter:title'>
+<meta content="Now that this group is public by default and the [repo](https://github.com/open-app/core) is outside of Enspiral, I'd like to get a sense of the Ecosystem comms strategy.&#x000A;&#x000A;For example, I'm aware that other enspiral-like groups are working on, or already have apps similar to what we have proposed. E.g. Camplight (Bulgaria), CoCoon Pro (Italy), Sensorica (Canada-USA), Swedish group (?). &#x000A;&#x000A;It seems to be beneficial to the ecosystem as a whole if these apps aligned towards the open-app's standards?&#x000A;&#x000A;Is it our strategy to promote open-app amongst these groups?&#x000A;If so, what is our value proposition?&#x000A;" name='twitter:description'>
+<meta content='Comms Strategy' property='og:title'>
+<meta content="Now that this group is public by default and the [repo](https://github.com/open-app/core) is outside of Enspiral, I'd like to get a sense of the Ecosystem comms strategy.&#x000A;&#x000A;For example, I'm aware that other enspiral-like groups are working on, or already have apps similar to what we have proposed. E.g. Camplight (Bulgaria), CoCoon Pro (Italy), Sensorica (Canada-USA), Swedish group (?). &#x000A;&#x000A;It seems to be beneficial to the ecosystem as a whole if these apps aligned towards the open-app's standards?&#x000A;&#x000A;Is it our strategy to promote open-app amongst these groups?&#x000A;If so, what is our value proposition?&#x000A;" property='og:description'>
+<meta content='website' property='og:type'>
+<meta content='Loomio' property='og:site_name'>
+<meta content='https://www.loomio.org/assets/loomio-facebook-timeline-113a724c47ea2053e78285993f966e95.png' property='og:image'>
+<meta content='image/png' property='og:image:type'>
+<meta content='1200' property='og:image:width'>
+<meta content='1200' property='og:image:height'>
+<meta content='https://www.loomio.org/d/pVkZouXx/comms-strategy' property='og:url'>
+<meta content='457851034283863' property='fb:app_id'>
+<link href='https://plus.google.com/116342080294548871960/' rel='publisher'>
+
+</head>
+<body class='discussions show'>
+<script>
+dataLayer = [{"user_id":"undefined","cohort":"undefined","discussion_id":"19621","group_id":"7341","group_parent_id":"","top_group":"","group_memberships_count":"26","group_privacy":"public","group_cohort":"2014-05"}]
+</script>
+<!-- Google Tag Manager -->
+<noscript>
+<iframe height='0' src='//www.googletagmanager.com/ns.html?id=GTM-TKW97Z' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer', "GTM-TKW97Z");
+</script>
+<!-- End Google Tag Manager -->
+
+<div class='main-container container'>
+
+<div class='toolbar-navigation'>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<ul class='nav-bar-list clearfix'>
+<li class='nav-item' id='logo-home'>
+<a class='app-logo beta nav-logo-link' href='/' title='Loomio'>
+&nbsp;
+</a>
+</li>
+<li class='pull-right'>
+<a href="/users/sign_in" class="btn btn-info login">Log in</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class='page-container'>
+<div class='row'>
+<div class='span9'>
+<div class='group-title'>
+<h1 class='home-title'>
+<a href="/g/exAKrBUp/app-ecosystem">App Ecosystem</a>
+<span id='group-privacy-label'>
+<i class='fa fa-unlock-alt group-privacy-public title-tooltip' title='Publicly listed group.'></i>
+</span>
+
+</h1>
+</div>
+
+</div>
+<div class='span3' id='button-container'>
+<a class="btn btn-app btn-info" data-confirm="false" data-toggle="false" href="/g/exAKrBUp/membership_requests/new" id="request-membership" title=""><span>Ask to join group</span></a>
+</div>
+</div>
+<div class='row translate-parent' id='discussion-pVkZouXx'>
+<div class='span12'>
+<div class='selector-panel'>
+<div class='clearfix discussion-header-container'>
+<div class='discussion-title-container'>
+<h2 id='discussion-title'>
+Comms Strategy
+<span></span>
+<i alt='public' class='fa fa-globe' data-container='body' data-title='&lt;span class="translation_missing" title="translation missing: en.simple_form.labels.discussion.privacy_public_header"&gt;Privacy Public Header&lt;/span&gt;: &lt;span class="translation_missing" title="translation missing: en.simple_form.labels.discussion.privacy_public_description"&gt;Privacy Public Description&lt;/span&gt;' id='privacy'></i>
+
+</h2>
+</div>
+<div class='discussion-title-translation translated'>Loading translation...</div>
+</div>
+
+<div id='discussion-content-container'>
+<div id='discussion-context'><div class='row'>
+<div class='span8'>
+<div class='description-container'>
+<div class='description-body'>
+<div class='long-description'>
+<p>Now that this group is public by default and the <a href="https://github.com/open-app/core" target="_blank">repo</a> is outside of Enspiral, I&rsquo;d like to get a sense of the Ecosystem comms strategy.</p>
+
+<p>For example, I&rsquo;m aware that other enspiral-like groups are working on, or already have apps similar to what we have proposed. E.g. Camplight (Bulgaria), CoCoon Pro (Italy), Sensorica (Canada-USA), Swedish group (?). </p>
+
+<p>It seems to be beneficial to the ecosystem as a whole if these apps aligned towards the open-app&rsquo;s standards?</p>
+
+<p>Is it our strategy to promote open-app amongst these groups?<br>
+If so, what is our value proposition?</p>
+
+</div>
+<div class='translation-spacer translated'></div>
+<div class='translated-description translated'>
+Loading translation...
+</div>
+</div>
+</div>
+
+</div>
+<div class='span3 right-context'>
+<div class='helper-text discussion-description-helper-text hidden'>
+<div class='hint'>
+<i class='fa fa-star'></i>
+<a href="/help#starting-an-engaging-discussion" target="help">Tips for using the context panel</a>
+</div>
+
+</div>
+<div class='discussion-additional-info'>
+Started 10 days ago by <a href='/u/DEwK5FS0/simon-tegg' class='user-name'>Simon Tegg</a>
+<div class='last-edited-by'>
+Last edited 10 days ago by <a href='/u/DEwK5FS0/simon-tegg' class='user-name'>Simon Tegg</a>
+</div>
+<div class='see-revision-history'>
+<i class='fa fa-time'></i>
+<a href="/d/pVkZouXx/show_description_history" class="see-description-history" data-method="post" data-remote="true" rel="nofollow">See revision history</a>
+</div>
+</div>
+</div>
+</div>
+<div class='modal hidden' id='description-revision-history'></div>
+</div>
+<div class='row'>
+<div class='span6' id='content-comments'>
+<a href="#comment-input" class="jump-to-add-comment btn" id="jump-to-latest"><i class='fa fa-arrow-down'></i>
+</a><div class='large-icon discussion-icon enabled-icon'></div>
+<h3 class='header-text'>Discussion</h3>
+<div id='discussion-activity-body'>
+<div id='activity-feed'>
+<ul id='activity-list'>
+<div class='top-pagination'>
+
+</div>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-117631'>
+<a class='comment-anchor' id='comment-117631'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/DEwK5FS0/simon-tegg"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="98162f4ee6df6faff32fc6bdf78bd1db" src="https://secure.gravatar.com/avatar/98162f4ee6df6faff32fc6bdf78bd1db.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/DEwK5FS0/simon-tegg" class="user-name">Simon Tegg</a>
+</div>
+<div class='activity-item-header'>
+<p>An obvious part of the value proposition is that Loomio has lots of name-recognition and good vibes. By aligning with the open-app ecosystem, your apps can integrate with Loomio long-term.</p>
+
+<p><a class="tweet-url username" href="#vitaliy" rel="nofollow">@vitaliy</a> Can you comment here? What do you see as the value proposition of the open-app ecosystem for camplighters?</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-117631">10 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Mikey Williams
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-117633'>
+<a class='comment-anchor' id='comment-117633'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/DEwK5FS0/simon-tegg"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="98162f4ee6df6faff32fc6bdf78bd1db" src="https://secure.gravatar.com/avatar/98162f4ee6df6faff32fc6bdf78bd1db.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/DEwK5FS0/simon-tegg" class="user-name">Simon Tegg</a>
+</div>
+<div class='activity-item-header'>
+<p>Ben from Loomio is about to head off to speak at the <a href="http://personaldemocracy.com/speakers" target="_blank">personal democracy forum</a> in NYC. He&rsquo;ll also be meeting with Code for America folks. How should he pitch the open-app ecosytem?</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-117633">10 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Craig Ambrose, Josef Davies-Coates, Mikey Williams and Matthew Bartlett
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-118013'>
+<a class='comment-anchor' id='comment-118013'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/g48DQjS5/mikey-williams"><div class='medium-user-avatar uploaded-user-avatar avatar-canvas'>
+<img alt="Avatar" src="https://loomio-uploads.s3.amazonaws.com/users/uploaded_avatars/000/016/644/medium/avatar.jpg?1397637696" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/g48DQjS5/mikey-williams" class="user-name">Mikey Williams</a>
+</div>
+<div class='activity-item-header'>
+<p>draft pitch: instead of competition for profit, society gains more value from developers cooperating to create a common toolbox of small tools that focus on real needs.</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-118013">9 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Craig Ambrose, Joshua Vial and Sharif
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-118031'>
+<a class='comment-anchor' id='comment-118031'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/ZnItCM2k/craig-ambrose"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="8c1b99675b4ba19460bfed9a04739fc4" src="https://secure.gravatar.com/avatar/8c1b99675b4ba19460bfed9a04739fc4.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/ZnItCM2k/craig-ambrose" class="user-name">Craig Ambrose</a>
+</div>
+<div class='activity-item-header'>
+<p>I suspect that Ben will understand how to pitch it if we can just brief him on what it is. :)</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-118031">9 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Simon Tegg, Mikey Williams and Matthew Bartlett
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-118061'>
+<a class='comment-anchor' id='comment-118061'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/OSxVzu6i/josef-davies-coates"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="61160437b679e51bb0998f893683893c" src="https://secure.gravatar.com/avatar/61160437b679e51bb0998f893683893c.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/OSxVzu6i/josef-davies-coates" class="user-name">Josef Davies-Coates</a>
+</div>
+<div class='activity-item-header'>
+<p>&ldquo;a suite of of integrated and open sourced apps which support transparent, democratic and decentralised organising&rdquo; is pretty clear, no?</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-118061">9 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Craig Ambrose, Sharif and Joshua Vial
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-118075'>
+<a class='comment-anchor' id='comment-118075'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/S3dhEA6o/sharif"><div class='medium-user-avatar uploaded-user-avatar avatar-canvas'>
+<img alt="Prespng" src="https://loomio-uploads.s3.amazonaws.com/users/uploaded_avatars/000/020/221/medium/prespng.png?1401148808" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/S3dhEA6o/sharif" class="user-name">Sharif</a>
+</div>
+<div class='activity-item-header'>
+<p>Hi! 
+<br />nice to be part of this.
+<br />I feel that there is no need for value propositions towards like minded communities. We understand the value by heart.</p>
+
+<p>Let´s just integrate!</p>
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-118075">9 days ago</a>
+ · 
+<a href="/translate/comment/118075" class="translate-link " data-method="post" data-remote="true" id="translate-comment-118075" rel="nofollow">See translation</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Simon Tegg
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-118138'>
+<a class='comment-anchor' id='comment-118138'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/DEwK5FS0/simon-tegg"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="98162f4ee6df6faff32fc6bdf78bd1db" src="https://secure.gravatar.com/avatar/98162f4ee6df6faff32fc6bdf78bd1db.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/DEwK5FS0/simon-tegg" class="user-name">Simon Tegg</a>
+</div>
+<div class='activity-item-header'>
+<p>Ok I briefed Ben on what we got here. <br>
+Plenty of people ask him about loomio integrations. <br>
+Loomio API and plugin architecture this is the next big phase after mobile so won&rsquo;t happen in the next 6 months. Now he can say if you integrate with app ecosystem, you&rsquo;ll get loomio integration in the long-term </p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-118138">9 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Josef Davies-Coates and Mikey Williams
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-118258'>
+<a class='comment-anchor' id='comment-118258'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/vXNkxOgc/bob-haugen"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="0ce7e24a999e470a0c98782ef21f7c2e" src="https://secure.gravatar.com/avatar/0ce7e24a999e470a0c98782ef21f7c2e.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/vXNkxOgc/bob-haugen" class="user-name">Bob Haugen</a>
+</div>
+<div class='activity-item-header'>
+<p>We&rsquo;re up for integrating, whenever people who are using two software whatevers want to integrate.</p>
+
+<p>We would be instantly interested in a Loomio plugin to handle comments, conversations and decisions. We have used an open source plugin in the past that we heavily modified, and have also considered Disqus which was developed by some people I sorta know, but would much prefer Loomio because I think we share more goals.</p>
+
+<p>We also agree with the comment from <a class="tweet-url username" href="#ahdinosaur" rel="nofollow">@ahdinosaur</a> and are trying to deprecate competition between projects that want to be part of what Tibi of Sensorica calls the Open Value Network Infrastructure suite.</p>
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-118258">8 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Simon Tegg, Mikey Williams and Craig Ambrose
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-120389'>
+<a class='comment-anchor' id='comment-120389'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/YXeuOdL4/derek-razo"><div class='medium-user-avatar initials-user-avatar avatar-canvas'>
+DR
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/YXeuOdL4/derek-razo" class="user-name">Derek Razo</a>
+</div>
+<div class='activity-item-header'>
+<blockquote>
+<blockquote>
+<p>It seems to be beneficial to the ecosystem as a whole if these apps aligned towards the open-app’s standards?</p>
+</blockquote>
+</blockquote>
+
+<p>Agreed! I have been talking to many groups in the early phases of community-oriented software projects, and the response </p>
+
+<blockquote>
+<blockquote>
+<p>Is it our strategy to promote open-app amongst these groups? If so, what is our value proposition?</p>
+</blockquote>
+</blockquote>
+
+<p>I think making other groups aware of the project, and integrating where possible- and where collaboration seems fluid is a good strategy.</p>
+
+<p>As for value proposition- I think different people will see different aspects of the project as being valuable. </p>
+
+<p>I very much like, &ldquo;a suite of of integrated and open sourced apps which support transparent, democratic and decentralized organizing&rdquo; &ndash; I think friends and activists resonate with this very much.</p>
+
+<p>I&rsquo;m also fond of framing the OAE project in terms of infrastructure. &ldquo;In the same way we need roads, power grids, etc. Society increasingly needs soft infrastructure to support democratic, open and transparent collaboration between individuals, communities, enterprises, municipalities, and governments.&rdquo; &ndash; A (admittedly high level) prop like this might work well for certain grants, programs, etc.</p>
+
+<p>For businesses / startups in the social enterprise, co-op enterprise space I think the simple idea of, &ldquo;We are going to make a bunch of small apps that will make your product easier to develop, cheaper to maintenance, and more coherent with other apps in the space&rdquo; is very compelling (ie. I have had success with it). &ndash; This is especially true if we can carve out collaborations between groups that want similar services and pool resources to feed developers :)</p>
+
+<p>Is this clear / what do you think about these propositions? They are a work in progress :)</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-120389">3 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Joshua Vial, Lynn Foster, Bob Haugen, Simon Tegg, Mikey Williams and Josef Davies-Coates
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-120390'>
+<a class='comment-anchor' id='comment-120390'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/YXeuOdL4/derek-razo"><div class='medium-user-avatar initials-user-avatar avatar-canvas'>
+DR
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/YXeuOdL4/derek-razo" class="user-name">Derek Razo</a>
+</div>
+<div class='activity-item-header'>
+<p>Woops&hellip; that last one got messed up.</p>
+
+<p>Should say:::<br>
+Agreed! I have been talking to many groups in the early phases of community-oriented software projects, and the response has been very positive.</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-120390">3 days ago</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-120463'>
+<a class='comment-anchor' id='comment-120463'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/GLalg4fZ/joshua-vial"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="18f5600722c7f9610cc59b1bff9c4c6f" src="https://secure.gravatar.com/avatar/18f5600722c7f9610cc59b1bff9c4c6f.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/GLalg4fZ/joshua-vial" class="user-name">Joshua Vial</a>
+</div>
+<div class='activity-item-header'>
+<p>Love your thinking <a class="tweet-url username" href="#derekrazo" rel="nofollow">@derekrazo</a> - I&rsquo;m happy with everything you mentioned and would love to see a &lsquo;how to communicate OAE&rsquo; doc</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-120463">3 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Mikey Williams and Derek Razo
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-120486'>
+<a class='comment-anchor' id='comment-120486'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/IcwYPLls/alanna-krause"><div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<img alt="04dbc46af4a947751837e68c37552ea2" src="https://secure.gravatar.com/avatar/04dbc46af4a947751837e68c37552ea2.png?d=none&amp;r=pg&amp;s=35" />
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/IcwYPLls/alanna-krause" class="user-name">Alanna Krause</a>
+</div>
+<div class='activity-item-header'>
+<p>I&rsquo;ve been calling it &ldquo;an operating system for a new kind of company&rdquo; in business settings.</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-120486">3 days ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Bob Haugen, Mikey Williams, Lynn Foster, Josef Davies-Coates and Derek Razo
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+<li class='activity-item-container'>
+<div class='translate-parent' id='comment-container-122214'>
+<a class='comment-anchor' id='comment-122214'></a>
+<div class='content-container'>
+<div class='activity-item-avatar medium-user-avatar'>
+<a href="/u/wacNo8qb/vitaliy-angelov-filipov"><div class='medium-user-avatar initials-user-avatar avatar-canvas'>
+VAF
+</div>
+
+</a>
+</div>
+<div class='activity-item-body'>
+<div class='activity-item-text-container'>
+<div class='activity-item-comment-actor'>
+<a href="/u/wacNo8qb/vitaliy-angelov-filipov" class="user-name">Vitaliy Angelov Filipov</a>
+</div>
+<div class='activity-item-header'>
+<p>Hello! :)) Here&rsquo;re my $0.02:<br>
+<a class="tweet-url username" href="#simontegg" rel="nofollow">@simontegg</a> the value we&rsquo;re seeking in Camplight is something along the lines of open source software apps that can help us organize better, make decisions faster, foster transparent culture, mitigate risk clever, thrive together &amp; decentralized and be happy using something that works out of the box :) But Camplight intrinsically is motivated to work towards achieving these goals because well&hellip; we&rsquo;re a collective and realise the values without any further details. I guess other collectives will be more interested in the <strong>features</strong> of such app ecosystem. Currently we&rsquo;ll be trying to make a small <a href="http://176.58.101.229:7777/" target="_blank">&ldquo;launching soon page&rdquo;</a> for our internal bookkeeping software called Moneyflow. We experiment with different kind of copywrite but we think to highlight the <strong>features</strong> more. </p>
+
+<p>I think the current value propositions from <a class="tweet-url username" href="#derekrazo" rel="nofollow">@derekrazo</a> <a class="tweet-url username" href="#alanna" rel="nofollow">@alanna</a>  <a class="tweet-url username" href="#josefdaviescoates" rel="nofollow">@josefdaviescoates</a> are right on spot and it all depends on the context because there&rsquo;re different target segments that the App ecosystem is aiming at. That&rsquo;s why I think that if the value propositions are trying to educate our market to become more open, transparent, flat etc. we should go with more generic stuff. Otherwise the specifics are more meaningful to other organizations such as Enspiral/Camplight (we already know what we seek in terms of value propositions, the deal is that we need the right features in order to integrate)</p>
+
+<div class='translation-spacer translated'></div>
+<div class='activity-item-translation translated'>
+Loading translation...
+</div>
+</div>
+</div>
+<div class='comment-time-and-likes'>
+<div class='activity-item-time'>
+<a href="#comment-122214">7 hours ago</a>
+</div>
+<div class='activity-item-likes'>
+Liked by Josef Davies-Coates and Derek Razo
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+</ul>
+
+<div class='add-comment-placeholder'>
+<div class='medium-user-avatar gravatar-user-avatar avatar-canvas'>
+<h2>
+<i class='fa fa-user'></i>
+</h2>
+</div>
+<textarea class="js-prompt-user-to-join-or-authenticate" id="new-comment" name="comment_placeholder" placeholder="Say something...">
+</textarea>
+<input class="btn btn-small submit js-prompt-user-to-join-or-authenticate" data-disable-with="Post comment" id="post-new-comment" name="commit" type="submit" value="Post comment" />
+</div>
+
+
+
+</div>
+</div>
+</div>
+<div class='span6' id='content-proposal'>
+<div class='large-icon decision-icon'></div>
+<h3 class='header-text'>Current decision</h3>
+<div class='content-proposal-body'>
+<ul class='selector-list'>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- the question should be broader: perhaps can? :participate -->
+<div class='modal hide' id='prompt-user-to-join-or-authenticate'>
+<div class='modal-header'>
+<h3>Log in or join group to participate</h3>
+<button class='close' data-dismiss='modal'>×</button>
+</div>
+<div class='modal-body'>
+<p>If you're a member of this group, you'll have to log in to participate.</p>
+<p>To comment or vote, you need to be a member of this group.</p>
+</div>
+<div class='modal-footer'>
+<a href="/users/sign_in" class="btn btn-large btn-success">Log in</a>
+<a class="btn btn-app btn-info" data-confirm="false" data-toggle="false" href="/g/exAKrBUp/membership_requests/new" id="request-membership" title=""><span>Ask to join group</span></a>
+</div>
+</div>
+<script>
+  $('body').on('click', '.vote-buttons', function(e) {
+    e.preventDefault();
+    $(this).find('.popover').hide();
+    $('#prompt-user-to-join-or-authenticate').modal('show');
+    }
+  );
+</script>
+
+
+
+</div>
+<div class='footer container clearfix'>
+<div class='left'>
+<div class='dropup'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<span>
+Language:
+English
+</span>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li><a href="?&amp;locale=en" title="Click here to use Loomio in English">English</a></li>
+<li><a href="?&amp;locale=bg" title="Click here to use Loomio in български">български</a></li>
+<li><a href="?&amp;locale=ca" title="Click here to use Loomio in Català">Català</a></li>
+<li><a href="?&amp;locale=cs" title="Click here to use Loomio in čeština">čeština</a></li>
+<li><a href="?&amp;locale=zh" title="Click here to use Loomio in 正體中文">正體中文</a></li>
+<li><a href="?&amp;locale=de" title="Click here to use Loomio in Deutsch">Deutsch</a></li>
+<li><a href="?&amp;locale=es" title="Click here to use Loomio in Español">Español</a></li>
+<li><a href="?&amp;locale=el" title="Click here to use Loomio in ελληνικά">ελληνικά</a></li>
+<li><a href="?&amp;locale=fr" title="Click here to use Loomio in Français">Français</a></li>
+<li><a href="?&amp;locale=id" title="Click here to use Loomio in Indonesian">Indonesian</a></li>
+<li><a href="?&amp;locale=hu" title="Click here to use Loomio in magyar">magyar</a></li>
+<li><a href="?&amp;locale=ja" title="Click here to use Loomio in 日本語">日本語</a></li>
+<li><a href="?&amp;locale=ko" title="Click here to use Loomio in 한국어">한국어</a></li>
+<li><a href="?&amp;locale=ml" title="Click here to use Loomio in മലയാളം">മലയാളം</a></li>
+<li><a href="?&amp;locale=nl" title="Click here to use Loomio in Nederlands">Nederlands</a></li>
+<li><a href="?&amp;locale=pt" title="Click here to use Loomio in Português (Brasil)">Português (Brasil)</a></li>
+<li><a href="?&amp;locale=ro" title="Click here to use Loomio in română">română</a></li>
+<li><a href="?&amp;locale=sr" title="Click here to use Loomio in srpski">srpski</a></li>
+<li><a href="?&amp;locale=sv" title="Click here to use Loomio in Svenska">Svenska</a></li>
+<li><a href="?&amp;locale=vi" title="Click here to use Loomio in Tiếng Việt">Tiếng Việt</a></li>
+<li><a href="?&amp;locale=tr" title="Click here to use Loomio in Türkçe">Türkçe</a></li>
+<li><a href="?&amp;locale=uk" title="Click here to use Loomio in українська мова">українська мова</a></li>
+</ul>
+</div>
+<a href="https://www.loomio.org/discussions/4896">Help translate Loomio!</a>
+</div>
+<div class='footer-links'>
+<a href="/explore" target="blank">Public groups</a>
+<a href="/blog" target="blank">Blog</a>
+<a href="/pages/contact" target="blank">Contact</a>
+<a href="/about" target="blank">About</a>
+<a href="/terms_of_service" target="blank">Terms</a>
+<a href="/privacy" target="blank">Privacy</a>
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
