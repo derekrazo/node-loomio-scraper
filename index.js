@@ -32,11 +32,11 @@ request(url, function (error, response, body) {
 
 /*
 
-	LOOMIO SCRAPING FUNCTIONS
+	LOOMIO SCRAPING / PREPROCESSING FUNCTIONS
 
-  These functions simply retrieve data about the page. They are to be
-  helpers for higher level functions which implement learning and NLP
-  algorithms on these page elements and combinations of page elements.
+  These functions simply retrieve data from the page and do light preprocessing. 
+  They are to be helpers for higher level functions which implement learning and 
+  NLP algorithms on these page elements and combinations of page elements.
 
 */
 
@@ -53,13 +53,32 @@ function getCommentors(body) {
   return unique(commentors);
 }
 
-//Returns an array containing all people who have commented in the loomio thread
-function getDiscussionStarter() {
+//Returns a JSON object containing relevant info from a discussion thread
 
-}
+/*
 
-//Returns an array containing all people who have voted on the current proposition
-function getVoters() {
+  Example psudo-JSON:
+    
+    Discussion object
+      
+      title:
+      context:
+      contibutors:
+
+      ARRAY OF:
+
+        Comment object
+          comment: id
+          text:
+          author:
+          links:
+          likedBy:
+          peopleTagged:
+          postedTime:
+
+*/
+
+function getDiscussion(){
 
 }
 
