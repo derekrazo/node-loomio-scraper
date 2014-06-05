@@ -1,5 +1,7 @@
 var request = require('request');
 var fs = require('graceful-fs');
+var cheerio = require('cheerio');
+var _ = require('lodash');
 
 var url = 'https://www.loomio.org/d/pVkZouXx/comms-strategy';
 
@@ -9,19 +11,80 @@ var url = 'https://www.loomio.org/d/pVkZouXx/comms-strategy';
 
 */
 
-download('./doc.text',url,function(err,result){
-      //handle error
-      //console.log('creating ' + fileName);
-});  
+request(url, function (error, response, body) {
+  if (!error && response.statusCode == 200) {
+    //console.log(body) // Print the google web page.
+
+    console.log(getCommentors(body));
+  }
+});
+
+
+
+
+
+
+
+
+
 
 
 
 /*
 
-	HELPER FUNCTIONS
+	LOOMIO SCRAPING FUNCTIONS
+
+  These functions simply retrieve data about the page. They are to be
+  helpers for higher level functions which implement learning and NLP
+  algorithms on these page elements and combinations of page elements.
 
 */
 
+//Returns an array containing all people who have commented in the loomio thread
+function getCommentors(body) {
+  $ = cheerio.load(body);
+  var commentors = [];
+
+  $('.user-name', '.activity-item-comment-actor')
+    .each(function(i,elem){
+      commentors.push($(this).text());
+    });
+
+  return unique(commentors);
+}
+
+//Returns an array containing all people who have commented in the loomio thread
+function getDiscussionStarter() {
+
+}
+
+//Returns an array containing all people who have voted on the current proposition
+function getVoters() {
+
+}
+
+
+/*
+
+  HELPER FUNCTIONS
+
+  Because abstraction is good.
+
+*/
+
+
+/*
+
+Downloads an HTML page as a file.
+
+EXAMPLE USE:
+
+download('./doc.text',url,function(err,result){
+      //handle error
+      //console.log('creating ' + fileName);
+});  
+
+*/
 
 function download (localFile, remotePath, callback) {
   var localStream = fs.createWriteStream(localFile);
@@ -38,3 +101,18 @@ function download (localFile, remotePath, callback) {
           callback(new Error("No file found at given url."),null);
   })
 };
+
+/*
+
+Returns an array that has only unique elements
+
+Incredible bullshit that I need this but  
+got bored looking for a nicer way to do it
+
+*/
+function unique (array){
+  uniqueArray = array.filter(function(elem, pos) {
+      return array.indexOf(elem) == pos;
+    });
+  return uniqueArray;
+}
