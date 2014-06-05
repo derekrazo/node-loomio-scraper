@@ -15,7 +15,7 @@ request(url, function (error, response, body) {
   if (!error && response.statusCode == 200) {
     //console.log(body) // Print the google web page.
 
-    console.log(getCommentors(body));
+    console.log(getDiscussion(body));
   }
 });
 
@@ -40,18 +40,6 @@ request(url, function (error, response, body) {
 
 */
 
-//Returns an array containing all people who have commented in the loomio thread
-function getCommentors(body) {
-  $ = cheerio.load(body);
-  var commentors = [];
-
-  $('.user-name', '.activity-item-comment-actor')
-    .each(function(i,elem){
-      commentors.push($(this).text());
-    });
-
-  return unique(commentors);
-}
 
 //Returns a JSON object containing relevant info from a discussion thread
 
@@ -61,9 +49,11 @@ function getCommentors(body) {
     
     Discussion object
       
-      title:
-      context:
-      contibutors:
+      Context object:
+        title:
+        context:
+        contibutors:
+        commentors:
 
       ARRAY OF:
 
@@ -78,9 +68,99 @@ function getCommentors(body) {
 
 */
 
-function getDiscussion(){
+function getDiscussion(body){
+  $ = cheerio.load(body);
+
+  return getCommentors(body);
 
 }
+
+//Returns 
+function getContext(){
+
+}
+
+//Returns 
+function getTitle(body){
+
+}
+
+//Returns 
+function getContextAsString(body) {
+  
+}
+
+//Returns an array containing all the people who have contributed to the discussion
+function getContributors(body) {
+  
+}
+
+//Returns an array containing all people who have commented in the discussion
+function getCommentors(body) {
+  $ = cheerio.load(body);
+  var commentors = [];
+
+  $('.user-name', '.activity-item-comment-actor')
+    .each(function(i,elem){
+      commentors.push($(this).text());
+    });
+
+  return unique(commentors);
+}
+
+
+//Returns a JSON object containing an array of comments 
+
+/*
+
+  Example psudo-JSON:
+    
+    Returns:
+  
+      ARRAY OF:
+
+        Comment object
+          comment: id
+          text:
+          author:
+          links:
+          likedBy:
+          peopleTagged:
+          postedTime:
+
+*/
+
+
+//Returns 
+function getComments(body) {
+  
+}
+
+//Returns 
+function getCommentText(comment) {
+  
+}
+
+//Returns 
+function getCommentAuthor(comment) {
+  
+}
+
+//Returns 
+function getCommentLinks(comment) {
+  
+}
+
+//Returns 
+function getCommentLikedBy(comment) {
+  
+}
+
+//Returns 
+function getPeopleTaggedInComment(comment) {
+  
+}
+
 
 
 /*
