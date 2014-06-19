@@ -1,28 +1,6 @@
-var request = require('request');
-var fs = require('graceful-fs');
-var cheerio = require('cheerio');
-var _ = require('lodash');
-
-var url = 'https://www.loomio.org/d/pVkZouXx/comms-strategy';
-
 /*
 
-	MAIN FUNCTION
-
-*/
-
-request(url, function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    //console.log(body) // Print the google web page.
-
-    console.log(getDiscussion(body));
-  }
-});
-
-
-/*
-
-  DOM SCRAPING / PREPROCESSING FUNCTIONS
+	DOM SCRAPING / PREPROCESSING FUNCTIONS
 
   These functions simply retrieve data from the page and do light preprocessing. 
   They are to be helpers for higher level functions which implement learning and 
@@ -150,78 +128,3 @@ function getCommentLikedBy(comment) {
 function getPeopleTaggedInComment(comment) {
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-  HELPER FUNCTIONS
-
-  Because abstraction is good.
-
-*/
-
-
-/*
-
-Downloads an HTML page as a file.
-
-EXAMPLE USE:
-
-download('./doc.text',url,function(err,result){
-      //handle error
-      //console.log('creating ' + fileName);
-});  
-
-*/
-
-function download (localFile, remotePath, callback) {
-  var localStream = fs.createWriteStream(localFile);
-
-  var out = request({ uri: remotePath });
-  out.on('response', function (resp) {
-      if (resp.statusCode === 200){
-          out.pipe(localStream);
-          localStream.once('close', function () {
-              callback(null, localFile);
-          });
-      }
-      else
-          callback(new Error("No file found at given url."),null);
-  })
-};
-
-/*
-
-Returns an array that has only unique elements
-
-Incredible bullshit that I need this but  
-got bored looking for a nicer way to do it
-
-*/
-function unique (array){
-  uniqueArray = array.filter(function(elem, pos) {
-      return array.indexOf(elem) == pos;
-    });
-  return uniqueArray;
-}
-
-
